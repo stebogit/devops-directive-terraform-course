@@ -14,9 +14,11 @@ AWS Terraform provider documentation: https://registry.terraform.io/providers/ha
 
 ## Hello World
 
-`./main.tf` contains minimal configuration to provision an EC2 instance.
+[`./main.tf`](./main.tf) contains minimal configuration to
+ [provision](https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/instance) an EC2 instance.
 
 1) `aws configure`
 2) `terraform init`
 3) `terraform plan`
 4) `terraform apply`
+5) `terraform destroy` *
